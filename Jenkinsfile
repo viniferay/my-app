@@ -3,7 +3,10 @@ pipeline {
     
     stages {
         stage('Primeira Etapa'){
-            echo "Ola Jenkins"
+            steps{
+                echo "Ola Jenkins"
+            }
+            
         }
     }
 }
